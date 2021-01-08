@@ -1,0 +1,362 @@
+body{
+    width: auto;
+    height: 3000px;
+    margin: auto;
+    background-color: whitesmoke;
+    }
+    /* police */
+   
+    @font-face {
+        font-family: 'titre';
+        src: url('police/titire.ttf');
+    }
+    @font-face {
+        font-family: 'para';
+        src: url('police/para.ttf');
+    }
+    h2{
+        font-family: 'titre', Impact, sans-serif;
+    }
+    body{
+        font-family: 'para', Impact, sans-serif;
+    }
+    
+    /* arrow */
+    #arrow{
+        right: 5%;
+        top: 90%;
+        position: fixed;
+    }
+    #arrow img{
+        height: 60px;
+        width: 60px;
+    }
+    /* Css Banniere logo+Titre+nav */
+    
+    #baniere img{
+        width: 80px;
+        height: 80px;
+    }
+    
+    #baniere{
+        display: flex;
+        flex-direction: row;
+        background:rgb(41, 39, 39,0.95) linear-gradient(to top, transparent,25%,rgb(41, 39, 39,1));
+        position: relative;
+        width: 100%;
+        height: 5%;
+    }
+    #titre_banniere{
+        align-self: center;
+        justify-content: center;
+        margin-right: 25px;
+        margin-left: 25px;
+        font-size: 1.8em; 
+        color: whitesmoke;
+    }
+    
+    header nav{
+        margin-left: auto;
+        margin-right: 15px;
+    }
+    header nav ul{
+        display: flex;
+        flex-direction: row;
+        list-style-type: none;
+        flex-wrap: nowrap;
+        justify-content: flex-end;
+    }
+    
+    header nav li{
+        margin: auto;
+        border: 4px whitesmoke solid;
+        border-radius: 3px 3px 3px 3px;
+        margin-left: 10px;
+        margin-top: auto;
+        height: 5%;
+        vertical-align: center;
+        background-color: rgb(36, 31, 31);
+    }
+    header nav a{
+        font-size: 1.3em;
+        color: whitesmoke;
+        display: flex;
+        align-items: center;
+        padding-left: 5px;
+        padding-right: 5px;
+        text-decoration: none;
+        height: 100%;
+    }
+    
+    header nav a:hover{
+        font-style: italic;
+        color: black;
+        background: whitesmoke;
+    }
+    
+    /* block presentation dans header */
+    
+    #block_1{
+        display: flex;
+    }
+    
+    .programmation{
+        background-image: url("image/image-dev.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 20%;
+        width: 100%;
+        border-radius: 0px 0px 5px 5px;
+        display: flex;
+        flex-direction: column;
+    }
+    .programmation h1{
+        padding: 15px;
+        background-color: whitesmoke;
+    }
+    
+    .programmation p{
+        width: 30%;
+        margin-left: 30px;
+        padding: 15px;
+        background-color: whitesmoke;
+    }
+    
+    .programmation span{
+        font-weight: bold;
+    }
+    
+    #profil_photo img{
+        display: none;
+    }
+    #profil_photo{
+        margin-left: auto;
+    }
+    #profil_photo:hover{
+        opacity: 0.75;
+    }
+    /* section competence */
+    
+    #comp{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        list-style-type: none;
+        height: 20%;
+        align-content: center;
+        justify-content: center;
+        border-bottom: black 8px solid;
+    }
+    
+    .cadre_c ul{
+        display: none;
+    }
+    
+    #comp img{
+        width: 80px;
+        height: 80px;
+        border-radius: 3px 3px 3px 3px;
+    }
+    
+    .presentation_comp{
+        width: 150px;
+        height: 150px;
+        margin: auto;
+        font-weight: bold;
+        margin: 20px;
+    }
+    .cadre_c{
+        width: 400px;
+        height: 200px;
+        margin-right: auto;
+        text-align: center;
+        border-radius: 2px 2px 2px 2px;
+        box-shadow: whitesmoke 10px 10px 1px;
+        background-color: black;
+        color: blanchedalmond;
+    }
+    #comp h2{
+        font-weight: bold;
+        font-size: 2.5em;
+    }
+    /* section hobbie */
+    
+    #hobbie{
+        height: 35%;
+        border-bottom: solid 3px black;
+        padding: 0px;
+    }
+    .cadre_h{ 
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: black;
+        color: blanchedalmond;
+    }
+    .cadre_h h2{
+        font-size: 3em;
+        font-weight: bold;
+        margin-bottom: 5px;
+    }
+    .cadre_h p{
+        font-style: italic;
+        font-size: 1.5em;
+    }
+    
+    .bloc_hobbie{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    .info{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 25%;
+    }
+    .info h3{
+        text-transform: uppercase;
+        text-align: center;
+    }
+    .info p img{
+        width: 15%;
+        margin-left: 5%;
+    } 
+    
+    .info p{
+        color: chartreuse;
+        background: black;
+    }
+    
+    .inve{
+        display: flex;
+        flex-direction: column-reverse;
+        width: 100%;
+        height: 25%;
+    }
+    .inve h3{
+        text-transform: uppercase;
+        text-align: center;
+    }
+    .inve p img{
+        width: 20%;
+    } 
+    .spor{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 25%;
+    }
+    .spor h3{
+        text-transform: uppercase;
+        text-align: center;
+    }
+    
+    .shou{
+        display: flex;
+        flex-direction: column-reverse;
+        width: 100%;
+        height: 25%;
+    }
+    .shou h3{
+        text-transform: uppercase;
+        text-align: center;
+    }
+    /* experience */
+    
+    #tableau_xp{
+        height: 25%;
+    }
+    
+    section table{
+        display: flex;
+        flex-direction: column;
+        border: none;
+        border-collapse: collapse; 
+        text-align: center;
+        height: 100%;
+        width: 100%;
+        overflow: scroll;
+    }
+    caption{
+        font-weight: bold;
+        background-color: rgb(36, 31, 31);
+        color: whitesmoke;
+        width: 117%;
+    }
+    section td{
+        border: none;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    
+    section td:nth-child(2n){
+        background-color: gray;
+    }
+    section td:nth-child(2n+1){
+        background-color: rgb(36, 31, 31);
+        color: whitesmoke;
+    }
+    
+    /* bas de page */
+    
+    footer{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-end;
+        height: 5%;
+        background: linear-gradient(wheat,15%,whitesmoke);
+    }
+    nav{
+        margin-right: auto;
+    }
+    
+    /* page hoobie.html */
+    #cont_v{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        font-size: 2em;
+        text-decoration: underline;
+    }
+    
+    /* contact.html */
+    
+    form{
+        width: 100%;
+        height: 600px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    fieldset{
+        margin: 15px;
+        padding: 25px;
+        border: outset;
+    }
+    
+    textarea{
+        width: 90%;
+        height: 150px; 
+    }
+    label{
+        margin: 15px;
+    }
+    
+    .mail_bouton{
+        background-color: rgb(36, 31, 31);
+        text-align: center;
+        height: 50px;
+        width: 25%;
+        margin-left: 37.5%;
+    }
+    button{
+        margin-left: 40%;
+    }
+    .mail_bouton a{
+        color: whitesmoke;
+        text-decoration: none;
+    }
+    

@@ -19,7 +19,7 @@
 
             <nav>
                 <ul>
-                    <li><a href="index.php#block_1">Acceuil</a></li>
+                    <li><a href="moncv.php#block_1">Acceuil</a></li>
                     <li><a href="hobbie.php">Hobbie</a></li>
                     <li><a href="contact.html">Contact</a></li>
                 </ul>

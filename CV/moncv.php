@@ -9,7 +9,7 @@
 </head>
 
 <body>
-    <div id="arrow"><a href="index.php#block_1"><img src="image/arrow.png" alt="haut de page"
+    <div id="arrow"><a href="./index.php#block_1"><img src="image/arrow.png" alt="haut de page"
                                                      title="retour au haut de page"></a>
     </div>
     <?php

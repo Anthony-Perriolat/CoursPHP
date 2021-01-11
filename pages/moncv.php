@@ -1,20 +1,15 @@
+<?php
+$metaTitle = "MonCV";
+$metadescription = "Ce-ci est une page CV";
+
+?>
 <!DOCTYPE html>
 <html lang="fr">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" media="all and (min-width:1200px)" href="style.css">
-    <link rel="stylesheet" media="screen and (max-width: 1200px)" href="ecran_1200.css">
-    <title>Cv Developpeur/Analyste</title>
-</head>
-
 <body>
-    <div id="arrow"><a href="./index.php#block_1"><img src="image/arrow.png" alt="haut de page"
+    <div id="arrow"><a href="moncv.php#block_1"><img src="image/arrow.png" alt="haut de page"
                                                      title="retour au haut de page"></a>
     </div>
-    <?php
-    include "header.php";
-    ?>
+
 
     <main>
         <section id="comp">
@@ -177,9 +172,7 @@
         </section>
 
     </main>
-    <?php
-    require 'footer.php';
-    ?>
+
 </body>
 
 </html>

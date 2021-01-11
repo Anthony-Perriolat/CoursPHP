@@ -352,7 +352,9 @@ footer{
     flex-direction: column;
     align-items: center;
     justify-content: flex-end;
-    height: 200px;
+
+
+    height: 400px;
     background: linear-gradient(wheat,15%,whitesmoke);
 }
 nav{
@@ -368,7 +370,7 @@ nav{
     text-decoration: underline;
 }
 
-/* contact.html */
+/* contact.php */
 
 form{
     width: 100%;

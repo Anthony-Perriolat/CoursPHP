@@ -1,14 +1,26 @@
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" media="all and (min-width:1200px)" href="/CV/style.css">
+    <link rel="stylesheet" media="screen and (max-width: 1200px)" href="/CV/ecran_1200.css">
+    <title><?= $metaTitle ?></title>
+    <meta name="description" content="<?= $metadescription ?>">
+
+</head>
 <header>
     <div id="baniere">
-        <img src="image/le_campus_numerique_in_the_ALPS.jpg" alt="Centre_de_formation"
+        <img src="/CV/image/le_campus_numerique_in_the_ALPS.jpg" alt="Centre_de_formation"
              title="Le campus numerique in the ALPS">
         <p id="titre_banniere"><span>Perriolat</span> Anthony</p>
 
         <nav>
             <ul>
-                <li><a href="index.php#block_1">Acceuil</a></li>
-                <li><a href="hobbie.php">Hobbie</a></li>
-                <li><a href="contact.html">Contact</a></li>
+                <li><a href="/index.php">Acceuil</a></li>
+                <li><a href="info.php">Accès info php</a></li>
+                <li><a href="/CV/moncv.php">Mon Cv</a></li>
+                <li><a href="/CV/hobbie.php">Hobbie</a></li>
+                <li><a href="/CV/contact.php">Contact</a></li>
             </ul>
         </nav>
     </div>
@@ -28,9 +40,6 @@
                 premisses de mes competences
             </p>
         </div>
-        <div id="profil_photo">
-            <a href="mailto:pro.aperriolat@gmail.com"><img src="image/profil.jpg" alt="candidat"
-                                                           title="Cliquez pour envoyer un mail à Anthony Perriolat"></a>
-        </div>
+
     </div>
 </header>

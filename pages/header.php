@@ -18,7 +18,7 @@ session_start();
 
         <nav>
             <ul>
-                <li><a href="/index.php">Acceuil</a></li>
+                <li><a href="/index.php?page=acceuil">Acceuil</a></li>
                 <li><a href="/index.php?page=moncv">Mon Cv</a></li>
                 <li><a href="/index.php?page=hobbie">Hobbie</a></li>
                 <li><a href="/index.php?page=contact">Contact</a></li>

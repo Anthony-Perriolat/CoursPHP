@@ -1,12 +1,9 @@
 <?php
 $metaTitle = "MonCV";
-$metadescription = "Ce-ci est une page CV";
-
+$metadescription = "Ce-ci est une page pages";
 ?>
-<!DOCTYPE html>
-<html lang="fr">
-<body>
-    <div id="arrow"><a href="moncv.php#block_1"><img src="image/arrow.png" alt="haut de page"
+
+    <div id="arrow"><a href="moncv.php#block_1"><img src="../image/arrow.png" alt="haut de page"
                                                      title="retour au haut de page"></a>
     </div>
 
@@ -29,43 +26,43 @@ $metadescription = "Ce-ci est une page CV";
                 </ul>
             </div>
             <div class="presentation_comp">
-                <img src="image/image_liste/dev.png" alt="competences">
+                <img src="../image/image_liste/dev.png" alt="competences">
                 <p>Maitrise des langages Html, CSS, PHP, MySQL</p>
             </div>
             <div class="presentation_comp">
-                <img src="image/image_liste/loupe.png" alt="competences">
+                <img src="../image/image_liste/loupe.png" alt="competences">
                 <p>Capacité de recherche</p>
             </div>
             <div class="presentation_comp">
-                <img src="image/image_liste/adapta.jpg" alt="competences">
+                <img src="../image/image_liste/adapta.jpg" alt="competences">
                 <p>Capacité d’adaptation</p>
             </div>
             <div class="presentation_comp">
-                <img src="image/image_liste/algo.png" alt="competences">
+                <img src="../image/image_liste/algo.png" alt="competences">
                 <p>Logique algorythmique et informatique</p>
             </div>
             <div class="presentation_comp">
-                <img src="image/image_liste/social.png" alt="competences">
+                <img src="../image/image_liste/social.png" alt="competences">
                 <p>Aptitudes relationnelles</p>
             </div>
             <div class="presentation_comp">
-                <img src="image/image_liste/orga.jpg" alt="competences">
+                <img src="../image/image_liste/orga.jpg" alt="competences">
                 <p>Capacité d’organisation</p>
             </div>
             <div class="presentation_comp">
-                <img src="image/image_liste/respo.jpg" alt="competences">
+                <img src="../image/image_liste/respo.jpg" alt="competences">
                 <p>Sens des responsabilités</p>
             </div>
             <div class="presentation_comp">
-                <img src="image/image_liste/manag.png" alt="competences">
+                <img src="../image/image_liste/manag.png" alt="competences">
                 <p>Management</p>
             </div>
             <div class="presentation_comp">
-                <img src="image/image_liste/marketing.jpg" alt="competences">
+                <img src="../image/image_liste/marketing.jpg" alt="competences">
                 <p>Marketing</p>
             </div>
             <div class="presentation_comp">
-                <img src="image/image_liste/nego.jpg" alt="competences">
+                <img src="../image/image_liste/nego.jpg" alt="competences">
                 <p>Négociation</p>
             </div>
         </section>
@@ -76,20 +73,20 @@ $metadescription = "Ce-ci est une page CV";
             </div>
             <ol class="bloc_hobbie">
                 <li class="info">
-                    <img src="image/hobbie_1.jpg" alt="informatique">
+                    <img src="../image/hobbie_1.jpg" alt="informatique">
                         <h3>La <br> programmation</h3>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil reprehenderit illum dolore
                         consequatur omnis impedit dolor nesciunt, ex optio praesentium cum incidunt, voluptates hic,
                         doloremque delectus illo aut culpa. Qui dicta facere iste ad, quod error maxime mollitia ipsam
                         eius minus reiciendis quis nulla! Esse tempora voluptatibus impedit ab! Rerum quisquam magnam
                         veniam quibusdam sed provident quis ad, culpa delectus! _ <br>
-                        <img src="image/Icon_pro/apache.png" alt="">
-                        <img src="image/Icon_pro/c++.png" alt="">
-                        <img src="image/Icon_pro/HC.png" alt="">
-                        <img src="image/Icon_pro/MySQL.svg" alt="">
-                        <img src="image/Icon_pro/PHP.svg" alt="">
-                        <img src="image/Icon_pro/Python.png" alt="">
-                        <img src="image/Icon_pro/swift.png" alt="">
+                        <img src="../image/Icon_pro/apache.png" alt="">
+                        <img src="../image/Icon_pro/c++.png" alt="">
+                        <img src="../image/Icon_pro/HC.png" alt="">
+                        <img src="../image/Icon_pro/MySQL.svg" alt="">
+                        <img src="../image/Icon_pro/PHP.svg" alt="">
+                        <img src="../image/Icon_pro/Python.png" alt="">
+                        <img src="../image/Icon_pro/swift.png" alt="">
                     </p>
                 </li>
                 <li class="inve">
@@ -99,10 +96,10 @@ $metadescription = "Ce-ci est une page CV";
                         eius minus reiciendis quis nulla! Esse tempora voluptatibus impedit ab! Rerum quisquam magnam
                         veniam quibusdam sed provident quis ad, culpa delectus!</p>
                         <h3>L'invesstissement</h3>
-                    <img src="image/hobbie_2.jpg" alt="">
+                    <img src="../image/hobbie_2.jpg" alt="">
                 </li>
                 <li class="spor">
-                    <img src="image/hobbie_3.jpg" alt="">
+                    <img src="../image/hobbie_3.jpg" alt="">
                         <h3>Les <br> sports</h3>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil reprehenderit illum dolore
                         consequatur omnis impedit dolor nesciunt, ex optio praesentium cum incidunt, voluptates hic,
@@ -117,7 +114,7 @@ $metadescription = "Ce-ci est une page CV";
                         eius minus reiciendis quis nulla! Esse tempora voluptatibus impedit ab! Rerum quisquam magnam
                         veniam quibusdam sed provident quis ad, culpa delectus!</p>
                         <h3>shou <br> sugi <br> ban</h3>
-                    <img src="image/hobbie_4.jpg" alt="">
+                    <img src="../image/hobbie_4.jpg" alt="">
                 </li>
             </ol>
         </section>
@@ -173,6 +170,3 @@ $metadescription = "Ce-ci est une page CV";
 
     </main>
 
-</body>
-
-</html>

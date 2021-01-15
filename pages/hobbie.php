@@ -5,7 +5,7 @@ $metadescription = "Ce-ci est une page Hobbie";
 <!DOCTYPE html>
 <html lang="fr">
 <body>
-    <div id="arrow"><a href="moncv.php#block_1"><img src="image/arrow.png" alt="haut de page" title="retour au haut de page"></a>
+    <div id="arrow"><a href="moncv.php#block_1"><img src="../image/arrow.png" alt="haut de page" title="retour au haut de page"></a>
     </div>
 
     <main id="cont_v">

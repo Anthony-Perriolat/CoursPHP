@@ -1,26 +1,27 @@
-
+<?php
+session_start();
+?>
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" media="all and (min-width:1200px)" href="/CV/style.css">
-    <link rel="stylesheet" media="screen and (max-width: 1200px)" href="/CV/ecran_1200.css">
+    <link rel="stylesheet" media="all and (min-width:1200px)" href="/style.css">
+    <link rel="stylesheet" media="screen and (max-width: 1200px)" href="/pages/ecran_1200.css">
     <title><?= $metaTitle ?></title>
     <meta name="description" content="<?= $metadescription ?>">
 
 </head>
 <header>
     <div id="baniere">
-        <img src="/CV/image/le_campus_numerique_in_the_ALPS.jpg" alt="Centre_de_formation"
+        <img src="/image/le_campus_numerique_in_the_ALPS.jpg" alt="Centre_de_formation"
              title="Le campus numerique in the ALPS">
         <p id="titre_banniere"><span>Perriolat</span> Anthony</p>
 
         <nav>
             <ul>
                 <li><a href="/index.php">Acceuil</a></li>
-                <li><a href="info.php">Accès info php</a></li>
-                <li><a href="/CV/moncv.php">Mon Cv</a></li>
-                <li><a href="/CV/hobbie.php">Hobbie</a></li>
-                <li><a href="/CV/contact.php">Contact</a></li>
+                <li><a href="/index.php?page=moncv">Mon Cv</a></li>
+                <li><a href="/index.php?page=hobbie">Hobbie</a></li>
+                <li><a href="/index.php?page=contact">Contact</a></li>
             </ul>
         </nav>
     </div>

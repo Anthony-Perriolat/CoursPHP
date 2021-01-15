@@ -8,11 +8,11 @@ body{
    
     @font-face {
         font-family: 'titre';
-        src: url('police/titire.ttf');
+        src: url('../police/titire.ttf');
     }
     @font-face {
         font-family: 'para';
-        src: url('police/para.ttf');
+        src: url('../police/para.ttf');
     }
     h2{
         font-family: 'titre', Impact, sans-serif;
@@ -101,7 +101,7 @@ body{
     }
     
     .programmation{
-        background-image: url("image/image-dev.jpg");
+        background-image: url("../image/image-dev.jpg");
         background-repeat: no-repeat;
         background-size: cover;
         height: 20%;

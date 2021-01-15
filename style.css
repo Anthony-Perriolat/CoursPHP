@@ -408,3 +408,6 @@ button{
     color: whitesmoke;
     text-decoration: none;
 }
+.erreur{
+    color: rgb(255, 0, 0);
+}

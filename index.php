@@ -3,7 +3,6 @@ $metaTitle = "index";
 $metadescription = "Ce-ci est une page index";
 $routes = array("header" => "pages/header.php", "footer" => "pages/footer.php", "acceuil" => "pages/acceuil.php", "moncv" => "pages/moncv.php", "hobbie" => "pages/hobbie.php", "contact" => "pages/contact.php", "404" => "pages/404.php" );
 $page = filter_input(INPUT_GET, 'page', FILTER_SANITIZE_STRING);
-ob_start();
 include $routes['header'];
 
 if ($page)  {
@@ -30,7 +29,5 @@ else {
 }
 
 include $routes['footer'];
-$render = ob_get_contents();
-$render = ob_get_clean();
 ?>
 
